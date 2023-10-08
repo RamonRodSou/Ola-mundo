@@ -1,6 +1,7 @@
-import styles from './SobreMim.module.css'
+import styles from './SobreMim.module.css';
 import PostModelo from "componentes/PostModelo";
-import fotoCapa from "assets/sobre_mim_capa.png"
+import fotoCapa from "assets/sobre_mim_capa.png";
+
 
 export default function SobreMim () {
 
@@ -14,25 +15,27 @@ export default function SobreMim () {
                 Olá, eu sou o Ramon!
             </h3>
             <img 
-                src='https://media.licdn.com/dms/image/D4D03AQHX0F71pQ2mbA/profile-displayphoto-shrink_800_800/0/1680482921944?e=1687996800&v=beta&t=MA7Q8_Pxy_jDfQNKGL84DiWXAOn6GqSl7UZvBbGJUtc'
+                src='https://cdn.discordapp.com/attachments/1078331260377776219/1160578507638845440/eu11.jpg?ex=65352bf6&is=6522b6f6&hm=8cc8ce0405c1f98cd746944ca73d10611e7b3cf02cd2d0f7b1636a2736330f2b&'
                 alt="Foto do Ramon Rod Sorrindo"
                 className={styles.fotoSobreMim}
             />
             <p className={styles.paragrafo}>
-                Oi, tudo bem? Eu sou instrutor de Front-end na Alura e estou feliz de te ver por aqui.
+                Oi, tudo bem? Eu sou desenvolvedor Front-end e estou feliz de te ver por aqui.
             </p>
             <p className={styles.paragrafo}>
-                Minha história com programação começou no Instituto Federal do Piauí (IFPI), quando fiz o ensino médio integrado ao curso de Informática. Eu aprendi lógica de programação e o básico de várias linguagens, como PHP, Python, Java, mas sem aprofundar muito em cada uma delas. Eu gostava muito de estudar programação, mas na época não fazia ideia de que trabalharia com isso hoje.
+                Minha história com programação começou em meiado de outubro de 2022, quando decidir iniciar um curso de lógica de programação com a tecnologia JAVA.
             </p>
             <p className={styles.paragrafo}>
-                No ensino superior, escolhi cursar Engenharia Elétrica na Universidade Federal do Piauí (UFPI). Lá eu consegui entrar no PET (Programa de Educação Tutorial), um grupo acadêmico que contribui de diversas formas para o curso. Lá eu tive a oportunidade de estudar desenvolvimento web para ser um dos mantenedores do site deles. 
+            Em novembro do mesmo ano, fui agraciado com uma oportunidade única: o programa One Next Education, em parceria com a Oracle e a Alura. Durante esse programa, tive a oportunidade de expandir meus horizontes no mundo da tecnologia. Fui capaz de mergulhar profundamente em áreas como Front-End e Data Science, e o mais importante, conhecer pessoas incríveis e formar novas amizades. 
             </p>
+            <p className={styles.paragrafo}>
                 Com isso tive minha experiência de dev mais próxima da realidade, com prazos de implementação para o site, e aprendi muito enquanto codificava.
-            <p className={styles.paragrafo}>
-                E foi enquanto eu estava no PET que decidi procurar um estágio em desenvolvimento web. Eu encontrei uma vaga na Alura para o Scuba Team e percebi que ela aliava duas paixões minhas: programação e educação. Para minha felicidade, fui escolhido para fazer parte do time.
             </p>
             <p className={styles.paragrafo}>
-                Desde então, tem sido aprenas aprendizados atrás de aprendizados. A Alura é uma escola não só para seus alunos e alunas, mas também para os colaboradores e colaboradoras. Hoje sou muito feliz de ter a oportunidade de trazer esses conteúdos ricos e encantadores para você. Espero que aprenda bastante!
+                E foi enquanto eu decidir cursar Analise e Desenvolvimento de Sistema.
+            </p>
+            <p className={styles.paragrafo}>
+                Desde então, tem sido aprenas aprendizados atrás de aprendizados.
             </p>        
         
             </PostModelo>

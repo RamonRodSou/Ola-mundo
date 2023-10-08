@@ -8,7 +8,7 @@ export default function Banner() {
             <div className={styles.apresentacao}>
                 <h1 className={styles.titulo}> Olá, Mundo</h1>
                 <p className={styles.paragrafor}>
-                    Boas vindas ao meu espaço pessoal! Eu sou Ramon Rodrigues, instrutor de Front-end da Alura. Aqui compartilho vários conhecimentos, espero que aprenda algo novo :)
+                    Boas vindas ao meu espaço pessoal! Eu sou Ramon Rodrigues, desenvolvedor Front-End. Aqui compartilho vários conhecimentos, espero que aprenda algo novo :)
                 </p>
             </div>
             <div className={styles.imagens}>
